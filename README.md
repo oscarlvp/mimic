@@ -1,2 +1,14 @@
 # mimic
-Experiments on sketch generation
+Simple toy experiments written in Python to generate sketches from pictures
+using figures.
+The sketches are generated with heuristic algorithms which minimize the 
+difference between the target image and the candidate sketches.
+
+##circles
+Usage:
+```
+$python circles.py input.jpg output.jpg -e 100
+```
+
+This will generate an sketch of `input.jpg` using only circles. The `-e` 
+parameter controls the number of guesses done by the heuristic algorithm.
