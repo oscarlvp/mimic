@@ -4,7 +4,8 @@ using figures.
 The sketches are generated with heuristic algorithms which minimize the 
 difference between the target image and the candidate sketches.
 
-##circles
+## circles
+
 Usage:
 ```
 $python circles.py input.jpg output.jpg -e 100
@@ -13,7 +14,8 @@ $python circles.py input.jpg output.jpg -e 100
 This will generate an sketch of `input.jpg` using only circles. The `-e` 
 parameter controls the number of guesses done by the heuristic algorithm.
 
-#lemniscate
+## lemniscate
+
 Usage:
 ```
 $python lemniscate.py --width 800 --height 600
